@@ -1,46 +1,124 @@
 # 🤟 SignBridge
 
-A real-time sign language interpreter app built with React + Vite.
+SignBridge is an accessibility-focused web application that helps bridge the communication gap between sign language users and non-sign-language users. The platform aims to translate sign language gestures into text and speech in real time, making communication more inclusive and accessible.
 
-## Features
-- 📷 Sign → Text: Camera view with animated hand landmark detection
-- 💬 Speech → Sign: Avatar performs signs from typed/spoken text
-- 📖 Phrasebook: Common phrases and signs library
-- 🔒 100% on-device (no data sent anywhere)
+## 🚀 Problem Statement
 
-## Quick Start
+Millions of people around the world rely on sign language for communication. However, many people do not understand sign language, creating communication barriers in education, healthcare, workplaces, and daily interactions.
 
-### Prerequisites
-- Node.js 18+ → https://nodejs.org
+SignBridge aims to solve this problem by providing a simple and accessible translation platform.
 
-### Run locally
+---
+
+## 💡 Solution
+
+SignBridge uses computer vision and machine learning to recognize sign language gestures and convert them into readable text and audible speech.
+
+### Features
+
+* 📷 Real-time camera access
+* ✋ Sign Language to Text conversion
+* 🔊 Text to Speech output
+* 🌐 User-friendly interface
+* ♿ Accessibility-focused design
+* 📱 Responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* Vite
+* HTML5
+* CSS3
+* JavaScript
+
+### Future Integrations
+
+* MediaPipe
+* TensorFlow Lite
+* OpenCV
+* Node.js
+* Express.js
+
+---
+
+## 📂 Project Structure
+
+```text
+SignBridge/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone the repository
 
 ```bash
-# Install dependencies
-npm install
+git clone https://github.com/atharvranmale/SignBridge.git
+```
 
-# Start dev server
+### Navigate to project directory
+
+```bash
+cd SignBridge
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
 npm run dev
 ```
 
-Then open **http://localhost:5173** in your browser.
+---
 
-### Build for production
+## 🎯 Future Scope
 
-```bash
-npm run build
-npm run preview
-```
+* Real-time sign language recognition
+* Voice-to-sign translation
+* Multi-language support
+* Mobile application
+* Offline mode
+* AI-powered gesture learning
+* Support for Indian Sign Language (ISL)
 
-## Tech Stack
-- React 18
-- Vite 5
-- Canvas API (hand landmark animation)
-- CSS-in-JS (no external UI library)
+---
 
-## Next Steps (real implementation)
-- Integrate MediaPipe Hands for real gesture detection
-- Add TensorFlow.js / ONNX model for sign classification
-- Integrate Whisper.js for real speech-to-text
-- Build 3D avatar with Three.js or Ready Player Me
-- Add more sign languages (BSL, ISL, Auslan)
+## 🌟 Impact
+
+SignBridge promotes digital accessibility and inclusion by enabling smoother communication between sign language users and the wider community.
+
+---
+
+## 👨‍💻 Author
+
+**Atharv Ranmale**
+
+GitHub: https://github.com/atharvranmale
+
+---
+
+## 📜 License
+
+This project is developed for educational, learning, and hackathon purposes.
