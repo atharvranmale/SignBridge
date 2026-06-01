@@ -98,23 +98,18 @@ The system is designed to:
 ## 📂 Project Structure
 
 ```text
+
 SignBridge/
-│
 ├── public/
-│
 ├── src/
 │   ├── assets/
 │   ├── components/
 │   ├── pages/
 │   ├── services/
-│   ├── utils/
-│   ├── App.jsx
-│   └── main.jsx
-│
+│   └── utils/
 ├── .gitignore
 ├── README.md
 ├── package.json
-├── package-lock.json
 ├── vite.config.js
 └── index.html
 ```
