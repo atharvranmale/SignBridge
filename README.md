@@ -146,19 +146,21 @@ npm run dev
 
 ## 📸 Screenshots
 
-Project screenshots will be added as development progresses.
 
 ### Home Page
 
-Coming Soon
+<img width="221" height="469" alt="image" src="https://github.com/user-attachments/assets/cfa5204b-dffd-4146-8b9b-3cc1556e359c" />
+
 
 ### Sign Detection Interface
 
-Coming Soon
+<img width="240" height="386" alt="image" src="https://github.com/user-attachments/assets/af18bdb9-23c4-4ac0-a667-44da0778307d" />
+
 
 ### Translation Results
 
-Coming Soon
+<img width="230" height="356" alt="image" src="https://github.com/user-attachments/assets/7d014ee6-7220-4a0f-8d74-b65f994a2649" />
+
 
 ---
 
